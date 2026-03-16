@@ -1,36 +1,91 @@
-# 📦 Previsão de Ruptura de Estoque Hospitalar
+# 💼 Previsão de Salário com Machine Learning
 
 ## 📌 Sobre o Projeto
 
-Este projeto tem como objetivo analisar o consumo de medicamentos e materiais hospitalares para prever o risco de ruptura de estoque utilizando técnicas de análise de dados e aprendizado de máquina.
+Este projeto tem como objetivo analisar os fatores que influenciam os salários de profissionais em diferentes setores e desenvolver um modelo capaz de estimar a remuneração com base em características profissionais e organizacionais.
 
-A gestão de estoque em ambiente hospitalar é crítica para garantir a continuidade dos atendimentos e evitar custos elevados com compras emergenciais ou desperdício por vencimento. Muitas instituições utilizam apenas níveis fixos de estoque mínimo, que nem sempre consideram variações de demanda ao longo do tempo.
+O dataset utilizado é um conjunto de dados sintético criado para fins de estudo em ciência de dados, contendo informações sobre cargos, experiência profissional, nível educacional, habilidades, certificações e características das empresas.
 
-Este projeto propõe o uso de dados históricos de consumo para:
-
-- Identificar padrões e tendências;
-- Calcular métricas de risco de ruptura;
-- Estimar consumo futuro;
-- Apoiar decisões de reposição de forma mais estratégica.
-
-## 🎯 Problema
-
-Como prever quais itens possuem maior probabilidade de ficar abaixo do estoque mínimo nos próximos períodos?
-
-## 📊 Metodologia
-
-O projeto envolve:
-
-1. Análise exploratória dos dados (EDA);
-2. Criação de métricas estratégicas de consumo;
-3. Modelagem estatística ou aplicação de algoritmos de Machine Learning;
-4. Avaliação do desempenho do modelo;
-5. Visualização dos resultados para suporte à tomada de decisão.
-
-## 🔐 Observação
-
-Os dados utilizados foram anonimizados e adaptados para fins educacionais, preservando apenas a estrutura estatística necessária para análise.
+Por meio de análise exploratória de dados (EDA) e técnicas de aprendizado de máquina, busca-se identificar padrões que expliquem a variação salarial e construir um modelo preditivo capaz de estimar salários com base nessas variáveis.
 
 ---
 
-Projeto desenvolvido como parte do programa de empregabilidade em Ciência de Dados.
+## 🎯 Problema
+
+Compreender como diferentes fatores profissionais influenciam a remuneração pode auxiliar tanto profissionais quanto empresas na tomada de decisões relacionadas a carreira, contratação e planejamento salarial.
+
+A questão central deste projeto é:
+
+**É possível prever o salário de um profissional com base em informações como cargo, experiência, educação, habilidades e certificações?**
+
+---
+
+## 📊 Dataset
+
+O conjunto de dados contém aproximadamente:
+
+- **250.000 registros**
+- **10 variáveis**
+
+Principais colunas do dataset:
+
+| Coluna | Descrição |
+|------|-----------|
+| `job_title` | Cargo do profissional |
+| `experience_years` | Anos de experiência |
+| `education_level` | Nível educacional |
+| `skills_count` | Número de habilidades |
+| `industry` | Setor da empresa |
+| `company_size` | Tamanho da empresa |
+| `location` | Localização |
+| `remote_work` | Indica se o trabalho é remoto ou presencial |
+| `certifications` | Número de certificações |
+| `salary` | Salário do profissional (variável alvo do modelo) |
+
+---
+
+## 🔎 Etapas do Projeto
+
+O projeto será desenvolvido seguindo as seguintes etapas:
+
+1️⃣ Definição do problema  
+2️⃣ Análise exploratória dos dados (EDA)  
+3️⃣ Limpeza e tratamento dos dados  
+4️⃣ Engenharia de atributos  
+5️⃣ Construção de modelos de Machine Learning  
+6️⃣ Avaliação do modelo  
+7️⃣ Visualização dos resultados  
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **Python**
+- **Pandas**
+- **Matplotlib**
+- **Scikit-learn**
+- **Jupyter Notebook**
+
+---
+
+## 📈 Objetivo
+
+Construir um modelo de regressão capaz de estimar salários com base nas características profissionais presentes no dataset e compreender quais fatores possuem maior influência na remuneração.
+
+---
+
+## 📚 Fonte dos Dados
+
+O dataset utilizado neste projeto foi disponibilizado por **PinkPixelAI** na plataforma Kaggle.
+
+🔗 Kaggle: [PinkPixelAI](https://www.kaggle.com/rhythmghai)
+
+---
+
+## 📚 Contexto
+
+Este projeto faz parte do programa de formação em **Ciência de Dados**, sendo desenvolvido como prática para aplicação de técnicas de análise de dados e aprendizado de máquina em um problema de previsão.
+
+---
+
+⭐ **Projeto em desenvolvimento**
